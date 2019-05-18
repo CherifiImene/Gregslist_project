@@ -1,0 +1,133 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+nav {
+    background-color: #e6e9e9;
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    top: 0px;
+    left: 0px;
+    border : 1px solid lightgray;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    margin: 8px;
+}
+a:hover {
+    font-size: larger;
+}
+a:active {
+    font-size: 14px;
+}
+a:visited{
+    color: black;
+}
+nav ul {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li > a {
+    color: purple;
+}
+nav h1 {
+    display: inline-block;
+    margin-top: 15px;
+}
+main {
+    margin-top: 70px;
+}
+.item {
+    margin-left:100px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+label {
+    font-weight: bold;
+    font-size: 18px;
+}
+.search-bar {
+    width: 660px;
+    height: 50px;
+}
+.search-bar input:first-child {
+    width: 500px;
+    height: 32px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    text-decoration-color: rgba(235, 231, 231);
+    font-weight: bold;
+    font-size: 15px;
+}
+.search-bar input:last-child {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 11px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+.pages {
+    margin-top: 30px;
+    font-size: 0px;
+    width: 400px;
+    height: 30px;
+}
+
+.pages input:first-child , .pages input:last-child {
+    width: 20%;
+}
+.pages input {
+    height: 100%;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid lightgray;
+}
+.pages input:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.pages input:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.pages input:first-child:hover , .pages input:last-child:hover {
+    text-decoration: underline black;
+}
+
+.results {
+    position: relative;
+    left : -38px;
+    top : 30px;
+}
+.results li {
+    color: darkgrey;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+a.result-link {
+    color: blue;
+    font-weight: bolder;
+    font-size: 20px;
+}
+a.result-link:hover {
+    text-decoration: underline;
+}
+a.result-link:active {
+    font-size: 14px;
+}
+a.result-link:visited{
+    color: black;
+}
